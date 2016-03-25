@@ -28,6 +28,18 @@ tags: [jekyll]
 
 >参考[Installing Jekyll on Windows](http://flatshaded.com/2013/05/installing-jekyll-on-windows/)进行安装
 
+- ### 提示cannot load such file -- pygments ###
+
+>参考[stackoverflow](http://stackoverflow.com/questions/33439019/jekyll-serve-didnt-work-it-looks-like-you-dont-have-pygments-or-one-of-its-dep)
+>gem install pygments.rb
+>gem 'pygments.rb'
+
 - #### jekyll serve后，assert找不到 ####
 
 >修改根目录下_config.yml文件，里面的ASSET_PATH修改为/assets/themes/bootstrap-3（自己在assert目录下看一看目录到底是什么样子的）
+
+###关于主题 ###
+
+知乎上有关于jekyll themes的话题，[GO](https://www.zhihu.com/question/20223939)
+
+啦啦啦 一大堆主题来袭！[Jekyll Themes](http://jekyllthemes.org/)
