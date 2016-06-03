@@ -1,17 +1,46 @@
 /* Custom container */
 
 /* Replaced with normal container and standard footer */
-/*.container-narrow {
+.container-narrow {
   margin: 0 auto;
   max-width: 700px; }
 
 .container-narrow > hr {
   margin: 30px 0; }
-*/
+
 
 /* Replaced with standard BS3 Navbar */
 /*.navbar .nav {
-  float: right; }*/
+  float: left; }*/
+
+/*selfdefine css*/
+@font-face { 
+  font-family: Magneto; 
+  src: local('Magneto'),
+		url('/assets/themes/bootstrap-3/css/font/Papyrus-Regular.ttf')format('ttf'),
+		url('/assets/themes/bootstrap-3/css/font/Papyrus-Regular.woff')format('woff'),
+		url('/assets/themes/bootstrap-3/css/font/Papyrus-Regular.eot')format('eot'),
+		url('/assets/themes/bootstrap-3/css/font/Papyrus-Regular.svg')format('svg'); 
+}
+@font-face { 
+  font-family: Papyrus; 
+  src: local('Papyrus'),
+		url('/assets/themes/bootstrap-3/css/font/Papyrus.ttf')format('ttf'),
+		url('/assets/themes/bootstrap-3/css/font/Papyrus.woff')format('woff'),
+		url('/assets/themes/bootstrap-3/css/font/Papyrus.eot')format('eot'),
+		url('/assets/themes/bootstrap-3/css/font/Papyrus.svg')format('svg'); 
+}
+.navbar-brand {
+	font-family: Magneto;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.navbar-nav {
+	font-family: Papyrus;
+	font-weight: bold;
+	font-size: 20px;
+}
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
@@ -78,3 +107,6 @@ h1, h2, h3, h4 {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+blockquote{
+  background-color: #F8F8F9;
+}

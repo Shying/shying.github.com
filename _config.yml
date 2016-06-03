@@ -1,5 +1,6 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
+timezone: Asia/Shanghai
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
@@ -132,3 +133,4 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+paginate: 5
