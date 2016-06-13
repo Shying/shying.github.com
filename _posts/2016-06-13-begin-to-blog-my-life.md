@@ -1,9 +1,12 @@
 ---
-layout: page
-tagline: Supporting tagline
-page-img: /assets/image/index.jpg
+layout: post
+title: "开始写博客啦"
+description: ""
+category: essay
+tags: [随笔]
 ---
 {% include JB/setup %}
+
 终于有了自己的博客了，依照我的眼光也只能把博客整成这个样子了。
 
 今年我就要工作了，今年的目标嘞，主要有三个：
