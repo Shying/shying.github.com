@@ -2,19 +2,19 @@
 /*selfdefine css*/
 @font-face { 
   font-family: Magneto; 
-  src: local('Magneto'),
-		url('/assets/themes/bootstrap-3/css/font/Magneto.ttf')format('ttf'),
-		url('/assets/themes/bootstrap-3/css/font/Magneto.woff')format('woff'),
-		url('/assets/themes/bootstrap-3/css/font/Magneto.eot')format('eot'),
-		url('/assets/themes/bootstrap-3/css/font/Magneto.svg')format('svg'); 
+  /*local('Magneto'),*/
+  src:  url('/assets/themes/bootstrap-3/css/font/Magneto.ttf')format('ttf'),
+        url('/assets/themes/bootstrap-3/css/font/Magneto.woff')format('woff'),
+        url('/assets/themes/bootstrap-3/css/font/Magneto.eot')format('eot'),
+        url('/assets/themes/bootstrap-3/css/font/Magneto.svg')format('svg'); 
 }
 @font-face { 
   font-family: Papyrus; 
-  src: local('Papyrus'),
-		url('/assets/themes/bootstrap-3/css/font/Papyrus.ttf')format('ttf'),
-		url('/assets/themes/bootstrap-3/css/font/Papyrus.woff')format('woff'),
-		url('/assets/themes/bootstrap-3/css/font/Papyrus.eot')format('eot'),
-		url('/assets/themes/bootstrap-3/css/font/Papyrus.svg')format('svg'); 
+/*local('Papyrus'),*/
+  src:  url('/assets/themes/bootstrap-3/css/font/Papyrus.ttf')format('ttf'),
+        url('/assets/themes/bootstrap-3/css/font/Papyrus.woff')format('woff'),
+        url('/assets/themes/bootstrap-3/css/font/Papyrus.eot')format('eot'),
+        url('/assets/themes/bootstrap-3/css/font/Papyrus.svg')format('svg'); 
 }
 
 /* Replaced with normal container and standard footer */
@@ -26,57 +26,57 @@
   margin: 30px 0; }
 
 .navbar-default {
-	background-image: none!important;
-	background-color: #ffffff;
+    background-image: none!important;
+    background-color: #ffffff;
 }
 
 .navbar {
-	min-height: 70px;
+    min-height: 70px;
 }
 
 .navbar-logo {
-	line-height: 60px;
-	float: left;
-	padding: 5px 0px 15px 15px;
+    line-height: 60px;
+    float: left;
+    padding: 5px 0px 15px 15px;
 }
 
 .navbar-logo > img {
-	height: 60px;
+    height: 60px;
 }
 
 .navbar-brand {
-	font-family: Magneto;
-	font-weight: bold;
-	font-size: 40px;
-	line-height: 60px;
-	padding: 10px 15px;
+    font-family: Magneto;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    padding: 10px 15px;
 }
 
 .navbar-default .navbar-brand {
-	color: #000000;
+    color: #000000;
 }
 
 .navbar-nav {
-	font-family: Papyrus;
-	font-weight: bold;
-	font-size: 20px;
-	margin-left: 100px;
-	margin-right: 50px;
-	float: right;
+    font-family: Papyrus;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+    float: right;
 }
 
 .navbar-nav > li {
-	margin-right: 50px;
-	color: #000000;
+    margin-right: 50px;
+    color: #000000;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #000000;
+    color: #000000;
 }
 
 .navbar-nav>li>a {
-	line-height: 60px;
-	padding: 20px 15px 0px 15px;
+    line-height: 60px;
+    padding: 20px 15px 0px 15px;
 }
 
 
@@ -153,11 +153,11 @@ blockquote{
 
 /* page 界面样式*/
 .img-container {
-	width: 100%;
-	text-align: center;
+    width: 100%;
+    text-align: center;
 }
 .page-img {
-	height: 360px;
-	margin-bottom: 10px;
-	
+    height: 360px;
+    margin-bottom: 10px;
+    
 }
