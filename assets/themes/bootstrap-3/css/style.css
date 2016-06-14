@@ -3,10 +3,10 @@
 @font-face { 
   font-family: Magneto; 
   src: local('Magneto'),
-		url('/assets/themes/bootstrap-3/css/font/Papyrus-Regular.ttf')format('ttf'),
-		url('/assets/themes/bootstrap-3/css/font/Papyrus-Regular.woff')format('woff'),
-		url('/assets/themes/bootstrap-3/css/font/Papyrus-Regular.eot')format('eot'),
-		url('/assets/themes/bootstrap-3/css/font/Papyrus-Regular.svg')format('svg'); 
+		url('/assets/themes/bootstrap-3/css/font/Magneto.ttf')format('ttf'),
+		url('/assets/themes/bootstrap-3/css/font/Magneto.woff')format('woff'),
+		url('/assets/themes/bootstrap-3/css/font/Magneto.eot')format('eot'),
+		url('/assets/themes/bootstrap-3/css/font/Magneto.svg')format('svg'); 
 }
 @font-face { 
   font-family: Papyrus; 
