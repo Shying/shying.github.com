@@ -1,20 +1,20 @@
 /* Custom container */
 /*selfdefine css*/
-@font-face { 
-  font-family: Magneto; 
+@font-face{
+  font-family: Magneto;
   /*local('Magneto'),*/
-  src:  url('/assets/themes/bootstrap-3/css/font/Magneto.ttf')format('ttf'),
+  src: url('/assets/themes/bootstrap-3/css/font/Magneto.ttf')format('ttf'),
         url('/assets/themes/bootstrap-3/css/font/Magneto.woff')format('woff'),
         url('/assets/themes/bootstrap-3/css/font/Magneto.eot')format('eot'),
-        url('/assets/themes/bootstrap-3/css/font/Magneto.svg')format('svg'); 
+        url('/assets/themes/bootstrap-3/css/font/Magneto.svg')format('svg');
 }
-@font-face { 
-  font-family: Papyrus; 
+@font-face{
+  font-family: Papyrus;
 /*local('Papyrus'),*/
-  src:  url('/assets/themes/bootstrap-3/css/font/Papyrus.ttf')format('ttf'),
+  src:  url('/assets/themes/bootstrap-3/css/font/Papyrus.ttf')format('ttf'),
         url('/assets/themes/bootstrap-3/css/font/Papyrus.woff')format('woff'),
         url('/assets/themes/bootstrap-3/css/font/Papyrus.eot')format('eot'),
-        url('/assets/themes/bootstrap-3/css/font/Papyrus.svg')format('svg'); 
+        url('/assets/themes/bootstrap-3/css/font/Papyrus.svg')format('svg');
 }
 
 /* Replaced with normal container and standard footer */
@@ -151,7 +151,7 @@ blockquote{
   background-color: #F8F8F9;
 }
 
-/* page 界面样式*/
+/* page*/
 .img-container {
     width: 100%;
     text-align: center;
