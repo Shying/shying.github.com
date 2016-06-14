@@ -70,7 +70,7 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
+  archive_path: /archive/index.html
   categories_path : /categories.html
   tags_path : /tags.html
   atom_path : /atom.xml
@@ -81,7 +81,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : facebook
     disqus :
       short_name : shying
     livefyre :
@@ -89,9 +89,9 @@ JB :
     intensedebate :
       account : 123abc
     facebook :
-      appid : 123
+      appid : 1690048177922992
       num_posts: 5
-      width: 580
+      width: 880
       colorscheme: light
     duoshuo :
       short_name : jekyllbootstrap
@@ -105,7 +105,7 @@ JB :
     gauges :
         site_id : 'SITE ID'
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-79224872-1'
     getclicky :
       site_id : 
     mixpanel :
@@ -132,5 +132,7 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+
 paginate: 5
+paginate_path: "/archive/:num"
+gems: [jekyll-paginate]  
